@@ -1,6 +1,6 @@
 //!wrt
 w96.FSUtil.normalizeDriveLetter = function (k) {
-    return k[0].toLowerCase() + k.slice(1);
+    return k[0].toUpperCase() + k.slice(1);
 };
 
 w96.FSUtil.fixPath = function (e) {
